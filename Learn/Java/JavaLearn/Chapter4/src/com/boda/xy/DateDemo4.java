@@ -2,7 +2,7 @@ package com.boda.xy;
 
 import com.boda.utils.Date;
 
-public class DateDemo {
+public class DateDemo4 {
     public static void main(String[] args) {
         long start = System.nanoTime();
         Date today = new Date(2021,10,5);

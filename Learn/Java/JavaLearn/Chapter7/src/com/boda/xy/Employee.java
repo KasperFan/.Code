@@ -39,6 +39,7 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
+
     public static void main(String[] args) {
         var emp = new Employee("刘明", 30, 5000);
         System.out.println("姓名 = " + emp.name);

@@ -1,12 +1,14 @@
 /*
  * @Author: KasperFan && fanwlx@foxmail.com
  * @Date: 2023-06-12 13:16:23
- * @LastEditTime: 2023-07-09 00:12:05
- * @FilePath: /Data_Structure/课程设计/学生成绩查询系统.c
+ * @LastEditTime: 2023-08-29 20:16:45
+ * @FilePath: /Learn/C/Data_Structure/课程设计/学生成绩查询系统.c
  * @describes: This file is created for learning Code.
  * Copyright (c) 2023 by KasperFan in WFU, All Rights Reserved.
  */
-#pragma commit(lib, "mysqlclient")
+#pragma GCC commit(lib, "mysqlclient", "ncursesw")
+// 编译命令(¿):
+// gcc main.c -o main -lmysqlclient -lncursesw
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,7 +17,7 @@
 
 #ifdef _WIN32     // 如果是Windows系统
 char *op = "cls"; // 将system函数赋值给清屏函数指针变量
-#include <conio.h>
+#include <conio.h>  
 #include <Windows.h>
 LARGE_INTEGER freq, start_time, end_time; // freq为计时器的频率
 #endif
@@ -173,7 +175,7 @@ void add_student(Student student)
     if (size == capacity)
     {
         capacity = capacity == 0 ? 1 : capacity * 2;
-        students = realloc(students, capacity * sizeof(Student));
+        students = (Student *)realloc(students, capacity * sizeof(Student));
     }
     // 将学生信息复制到数组的末尾，并更新大小
     students[size++] = student;
@@ -941,5 +943,4 @@ int input_password(char password[])
 }
 #endif
 
-// 编译命令(¿):
-// gcc main.c -o main -lmysqlclient -lncursesw
+

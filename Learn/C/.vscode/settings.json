@@ -5,5 +5,10 @@
     },
     "python.formatting.provider": "none",
     "python.analysis.typeCheckingMode": "off",
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "mysql.h": "c",
+        "ncurses.h": "c",
+        "locale.h": "c"
+    }
 }

@@ -3,7 +3,15 @@
         {
             "name": "Mac",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/local/mysql/include",
+                "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../include/c++/13",
+                "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../include/c++/13/aarch64-apple-darwin22",
+                "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../include/c++/13/backward",
+                "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include",
+                "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks"
             ],
             "defines": [],
             "macFrameworkPath": [

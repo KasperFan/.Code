@@ -17,6 +17,15 @@ public class Person {
         this.name = name;
         this.age = age;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     public void sayHello(){
         System.out.println("My name is " + name);
     }
