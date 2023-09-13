@@ -19,6 +19,8 @@ int MaxSubseqSum3(int List[], int N);
 /*［算法4]在线处理。*/
 int MaxSubseqSum4(int List[], int N);
 
+int (*funcs[4])(int[], int) = {MaxSubseqSum1, MaxSubseqSum2, MaxSubseqSum3, MaxSubseqSum4};
+
 int main()
 {
     long ans;

@@ -13,8 +13,7 @@ public class Input {
                 result = result * 10 + (bufferChar - '0');
                 bufferChar = (char) System.in.read();
             }
-        } catch (IOException ignored) {
-        }
+        } catch (IOException ignored) {}
         return result;
     }
 
@@ -37,8 +36,7 @@ public class Input {
                 bufferChar = (char) System.in.read();
             }
             result /= Math.pow(10, count);
-        } catch (IOException ignored) {
-        }
+        } catch (IOException ignored) {}
         return result;
     }
 

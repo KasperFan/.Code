@@ -5,12 +5,14 @@ import random
 
 # 打开Edge浏览器，打开超星学习通登录入口
 
-driver = webdriver.Edge()
+driver = webdriver.Safari()
 
 driver.implicitly_wait(7)
 
 driver.maximize_window()
 driver.get('https://passport2.chaoxing.com/login?fid=&newversion=true&refer=http%3A%2F%2Fi.chaoxing.com')
+driver.get_cookies()
+driver.set
 
 
 class Course:
@@ -36,7 +38,7 @@ def login():
     time.sleep(random.random() * 3)
     password.send_keys(inp_2)
     # numcode.send_keys(inp_3)
-    time.sleep(random.random() * 3)
+    time.sleep(random.random() * 5)
     driver.find_element(By.XPATH, '//*[@id="leftdiv"]/form/div[3]/button').click()  # 检查页面元素，复制登录按钮的xpath
     # driver.find_element(By.LINK_TEXT, '登录').click()
     print("---------- 正在登陆 ----------")

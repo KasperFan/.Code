@@ -96,11 +96,33 @@ Desc    :   This file is created for solve OJ problem
 // }
 
 #include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Student
+{
+    long id;       // 学号，最多9个字符
+    char name[20]; // 姓名，最多19个字符
+    int score;     // 成绩，0到100之间的整数
+} Student;
+
+// 定义学生信息二叉排序树节点，包含一个学生信息结构体和左右子节点
+typedef struct BSTNode
+{
+    Student student;       // 学生信息结构体
+    struct BSTNode *left;  // 左子节点指针
+    struct BSTNode *right; // 右子节点指针
+} BSTNode;
+
 int main()
 {
-    int a, b, c;
-    scanf("%d %d", &a, &b);
-    c = a ^ b;
-    printf("%d\n", c);
+    char *str = (char *)malloc(sizeof(char) * 20);
+    for (int i = 0; i < 10; i++)
+    {
+        str[i] = '0' + 1;
+    }
+
+    printf("%s\n", str);
+    free(str);
+    str = NULL;
     return 0;
 }

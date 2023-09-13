@@ -11,7 +11,8 @@
                 "/opt/homebrew/Cellar/gcc/12.3.0/bin/../lib/gcc/12/gcc/aarch64-apple-darwin22/12/../../../../../../include/c++/12/backward",
                 "/opt/homebrew/Cellar/gcc/12.3.0/bin/../lib/gcc/12/gcc/aarch64-apple-darwin22/12/include",
                 "/opt/homebrew/Cellar/gcc/12.3.0/bin/../lib/gcc/12/gcc/aarch64-apple-darwin22/12/include-fixed",
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include"
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks"
             ],
             "defines": [],
             "macFrameworkPath": [
@@ -19,7 +20,7 @@
             ],
             "compilerPath": "/opt/homebrew/bin/gcc-12",
             "cStandard": "c17",
-            "cppStandard": "c++23",
+            "cppStandard": "c++17",
             "intelliSenseMode": "macos-gcc-arm64"
         }
     ],

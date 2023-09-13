@@ -33,7 +33,7 @@ void setPasswordCheck(char (*password)[]);
 void initDataBase(DataBase *dataBase);
 void add(DataBase *dataBase);
 void show(DataBase *dataBase);
-int query(DataBase *dataBase);
+int query(const DataBase *dataBase);
 void del(DataBase *dataBase);
 void modify(DataBase *dataBase);
 void sort(DataBase *dataBase);
@@ -327,7 +327,7 @@ void show(DataBase *dataBase)
         printf("---------------------------------------\n");
     }
 }
-int query(DataBase *dataBase)
+int query(const DataBase *dataBase)
 {
     int key;
     char name[MAX_NAME];

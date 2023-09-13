@@ -20,7 +20,7 @@ class Courses:
 
 
 
-# 学校 学号 密码 验证码登陆
+
 def login():
     # inp_1 = input('请输入学号:')
     # inp_2 = input('请输入密码:')
