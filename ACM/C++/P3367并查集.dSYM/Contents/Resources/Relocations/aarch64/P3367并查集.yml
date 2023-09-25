@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/kasperfan/Desktop/.Code/ACM/C++/P3367并查集"
+relocations:
+  - { offsetInCU: 0xCC, offset: 0xCC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007B54, symSize: 0x15C }
+  - { offsetInCU: 0x4EAD, offset: 0x4EAD, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x5E618, symBinAddr: 0x10000C040, symSize: 0x0 }
+  - { offsetInCU: 0xF1C5, offset: 0xF1C5, size: 0x8, addend: 0x0, symName: _P, symObjAddr: 0x5E61C, symBinAddr: 0x10000C044, symSize: 0x0 }
+  - { offsetInCU: 0xF748, offset: 0xF748, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_P3367_________.cpp, symObjAddr: 0x2C8, symBinAddr: 0x100007E1C, symSize: 0x1C }
+  - { offsetInCU: 0xF76A, offset: 0xF76A, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0ii, symObjAddr: 0x268, symBinAddr: 0x100007DBC, symSize: 0x60 }
+  - { offsetInCU: 0xF772, offset: 0xF772, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_P3367_________.cpp, symObjAddr: 0x2C8, symBinAddr: 0x100007E1C, symSize: 0x1C }
+  - { offsetInCU: 0xF7A6, offset: 0xF7A6, size: 0x8, addend: 0x0, symName: __Z11is_same_setii, symObjAddr: 0x228, symBinAddr: 0x100007D7C, symSize: 0x40 }
+  - { offsetInCU: 0xF7AE, offset: 0xF7AE, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0ii, symObjAddr: 0x268, symBinAddr: 0x100007DBC, symSize: 0x60 }
+  - { offsetInCU: 0xF7ED, offset: 0xF7ED, size: 0x8, addend: 0x0, symName: __Z9merge_setii, symObjAddr: 0x1CC, symBinAddr: 0x100007D20, symSize: 0x5C }
+  - { offsetInCU: 0xF7F5, offset: 0xF7F5, size: 0x8, addend: 0x0, symName: __Z11is_same_setii, symObjAddr: 0x228, symBinAddr: 0x100007D7C, symSize: 0x40 }
+  - { offsetInCU: 0xF83D, offset: 0xF83D, size: 0x8, addend: 0x0, symName: __Z11find_parenti, symObjAddr: 0x15C, symBinAddr: 0x100007CB0, symSize: 0x70 }
+  - { offsetInCU: 0xF845, offset: 0xF845, size: 0x8, addend: 0x0, symName: __Z9merge_setii, symObjAddr: 0x1CC, symBinAddr: 0x100007D20, symSize: 0x5C }
+  - { offsetInCU: 0xF862, offset: 0xF862, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007B54, symSize: 0x15C }
+  - { offsetInCU: 0xF86A, offset: 0xF86A, size: 0x8, addend: 0x0, symName: __Z11find_parenti, symObjAddr: 0x15C, symBinAddr: 0x100007CB0, symSize: 0x70 }
+...

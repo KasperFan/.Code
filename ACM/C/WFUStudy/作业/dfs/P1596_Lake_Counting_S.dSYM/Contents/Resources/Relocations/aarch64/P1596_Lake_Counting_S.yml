@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/kasperfan/Desktop/.Code/ACM/C/WFUStudy/作业/dfs/P1596_Lake_Counting_S"
+relocations:
+  - { offsetInCU: 0xEC, offset: 0xEC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007CEC, symSize: 0x144 }
+  - { offsetInCU: 0x4EC1, offset: 0x4EC1, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x5E030, symBinAddr: 0x10000C038, symSize: 0x0 }
+  - { offsetInCU: 0xF1DF, offset: 0xF1DF, size: 0x8, addend: 0x0, symName: _N, symObjAddr: 0x5E034, symBinAddr: 0x10000C03C, symSize: 0x0 }
+  - { offsetInCU: 0xF1FA, offset: 0xF1FA, size: 0x8, addend: 0x0, symName: _M, symObjAddr: 0x5E038, symBinAddr: 0x10000C040, symSize: 0x0 }
+  - { offsetInCU: 0xF23C, offset: 0xF23C, size: 0x8, addend: 0x0, symName: _is_visited, symObjAddr: 0x5E03C, symBinAddr: 0x10000C044, symSize: 0x0 }
+  - { offsetInCU: 0xF26F, offset: 0xF26F, size: 0x8, addend: 0x0, symName: _maps, symObjAddr: 0x60815, symBinAddr: 0x10000E81D, symSize: 0x0 }
+  - { offsetInCU: 0xF872, offset: 0xF872, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_P1596_Lake_Counting_S.cpp, symObjAddr: 0x1A4, symBinAddr: 0x100007E90, symSize: 0x1C }
+  - { offsetInCU: 0xF88D, offset: 0xF88D, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0ii, symObjAddr: 0x144, symBinAddr: 0x100007E30, symSize: 0x60 }
+  - { offsetInCU: 0xF895, offset: 0xF895, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_P1596_Lake_Counting_S.cpp, symObjAddr: 0x1A4, symBinAddr: 0x100007E90, symSize: 0x1C }
+  - { offsetInCU: 0xF8B0, offset: 0xF8B0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007CEC, symSize: 0x144 }
+  - { offsetInCU: 0xF8B8, offset: 0xF8B8, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0ii, symObjAddr: 0x144, symBinAddr: 0x100007E30, symSize: 0x60 }
+...

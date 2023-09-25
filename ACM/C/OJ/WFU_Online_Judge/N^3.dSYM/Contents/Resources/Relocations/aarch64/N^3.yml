@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kasperfan/Desktop/.Code/ACM/C/OJ/WFU_Online_Judge/N^3'
+relocations:
+  - { offsetInCU: 0xD7, offset: 0xD7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007DA8, symSize: 0x1B0 }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: _tow, symObjAddr: 0x864, symBinAddr: 0x10000C018, symSize: 0x0 }
+  - { offsetInCU: 0xCA, offset: 0xCA, size: 0x8, addend: 0x0, symName: _N, symObjAddr: 0x88C, symBinAddr: 0x10000C040, symSize: 0x0 }
+  - { offsetInCU: 0xE7, offset: 0xE7, size: 0x8, addend: 0x0, symName: _ans, symObjAddr: 0x890, symBinAddr: 0x10000C044, symSize: 0x0 }
+  - { offsetInCU: 0x101, offset: 0x101, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007DA8, symSize: 0x1B0 }
+...

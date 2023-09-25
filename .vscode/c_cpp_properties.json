@@ -19,7 +19,8 @@
             "compilerPath": "/opt/homebrew/bin/gcc-12",
             "cStandard": "c17",
             "cppStandard": "c++23",
-            "intelliSenseMode": "macos-gcc-arm64"
+            "intelliSenseMode": "macos-gcc-arm64",
+            "compileCommands": "${workspaceFolder}/Create/Build/compile_commands.json"
         }
     ],
     "version": 4

@@ -3,9 +3,10 @@ from selenium.webdriver.common.by import By
 import time
 import random
 
+
 # 打开Edge浏览器，打开教务系统登录入口
 
-driver = webdriver.Edge()
+driver = webdriver.Safari()
 
 driver.implicitly_wait(7)
 
@@ -17,9 +18,6 @@ class Courses:
     def __init__(self, courseName, courseID):
         self.courseName = courseName
         self.courseID = courseID
-
-
-
 
 def login():
     # inp_1 = input('请输入学号:')
@@ -38,10 +36,10 @@ def login():
     # numcode.send_keys(inp_3)
     time.sleep(random.random() * 3)
     driver.find_element(By.XPATH, '//*[@id="ul1"]/li[5]/button').click()  # 检查页面元素，复制登录按钮的xpath
-    # driver.find_element(By.LINK_TEXT, '登录').click()
+    driver.find_element(By.LINK_TEXT, '登录').click()
     print("---------- 正在登陆 ----------")
 
-3
+
 def getcourses():
     time.sleep(random.random() * 3)
     driver.find_element(By.XPATH, '//*[@id="dataList"]/tbody/tr[1]/td/a').click()

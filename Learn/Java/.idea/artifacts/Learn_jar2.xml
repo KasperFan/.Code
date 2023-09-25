@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Learn:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/Learn_jar2</output-path>
+    <root id="archive" name="Learn.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/JavaLearn/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Learn" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/JavaLearn/Chapter4/com.boda.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
