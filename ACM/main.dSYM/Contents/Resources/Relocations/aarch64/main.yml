@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kasperfan/Desktop/.Code/ACM/main'
+relocations:
+  - { offsetInCU: 0xAC, offset: 0xAC, size: 0x8, addend: 0x0, symName: __Z3disiiii, symObjAddr: 0x0, symBinAddr: 0x100007D20, symSize: 0x5C }
+  - { offsetInCU: 0x22F6, offset: 0x22F6, size: 0x8, addend: 0x0, symName: __ZSt3powIiiEN9__gnu_cxx11__promote_2IDTplcvNS1_IT_XsrSt12__is_integerIS2_E7__valueEE6__typeELi0EcvNS1_IT0_XsrS3_IS7_E7__valueEE6__typeELi0EEXsrS3_ISB_E7__valueEE6__typeES2_S7_, symObjAddr: 0x158, symBinAddr: 0x100007E78, symSize: 0x2C }
+  - { offsetInCU: 0x22BA, offset: 0x22BA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5C, symBinAddr: 0x100007D7C, symSize: 0xFC }
+  - { offsetInCU: 0x22C2, offset: 0x22C2, size: 0x8, addend: 0x0, symName: __ZSt3powIiiEN9__gnu_cxx11__promote_2IDTplcvNS1_IT_XsrSt12__is_integerIS2_E7__valueEE6__typeELi0EcvNS1_IT0_XsrS3_IS7_E7__valueEE6__typeELi0EEXsrS3_ISB_E7__valueEE6__typeES2_S7_, symObjAddr: 0x158, symBinAddr: 0x100007E78, symSize: 0x2C }
+  - { offsetInCU: 0x23AA, offset: 0x23AA, size: 0x8, addend: 0x0, symName: __Z3disiiii, symObjAddr: 0x0, symBinAddr: 0x100007D20, symSize: 0x5C }
+  - { offsetInCU: 0x23B2, offset: 0x23B2, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5C, symBinAddr: 0x100007D7C, symSize: 0xFC }
+...

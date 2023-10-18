@@ -8,6 +8,10 @@ public class ArrayCopyDemo {
         try {
             System.arraycopy(a, 0, b, 0, a.length);
 //          下面的语句发生异常，目标数组容纳不下数组a的元素
+            /**
+             * 由于实参超出范围，对 'arraycopy' 的调用总是失败
+             * a.length长度始终大于 'dest.length - destPos' {4}
+             * */
             System.arraycopy(a, 0, c, 0, a.length);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.err.println(e);

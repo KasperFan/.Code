@@ -15,7 +15,7 @@ print('请输入密码：', end="")
 str_2 = 'FZh02280226'
 # str_2 = input()
 
-# 创建 Firefox 浏览器驱动程序
+# 创建浏览器驱动程序
 driver = webdriver.Edge()
 
 # 执行 CDP 命令
@@ -44,11 +44,7 @@ username.send_keys(str_1)
 password.send_keys(str_2)
 driver.find_element(By.XPATH, '//*[@id="app"]/div/div/div[2]/div/div[1]/div/div/div[3]/form/button').click()
 
-all_windows = driver.window_handles
-
-# 切换到新窗口
-new_window = all_windows[-1]
-driver.switch_to.window(new_window)
+cookies = driver.get_cookies()
 
 
 def get_element_text():
@@ -65,7 +61,6 @@ def get_element_text():
     except NoSuchElementException:
         return False  # 元素未找到，返回false
 
-cookies = driver.get_cookies()
 
 while True:
     result = get_element_text()
@@ -106,9 +101,19 @@ while True:
         leave = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[3]/div[1]/div/a[3]')
         leave.click()
         time.sleep(5)
-        box = driver.find_element(By.XPATH,'/html/body/div[1]/div/div/div[3]/div[2]/div/div/div/div[1]/div['
-                                           '3]/table/tbody')
+        box = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[3]/div[2]/div/div/div/div[1]/div['
+                                            '3]/table/tbody')
         lists = box.find_elements(By.TAG_NAME, 'tr')
         for elem in lists:
-            spanlists = elem.find_elements(By.TAG_NAME, 'span')
-            # if spanlists[3].text
+            # spanlists = elem.find_elements(By.TAG_NAME, 'span')
+            tdText = elem.text.split()[2]
+            if tdText != "100%":
+                elem.find_element(By.TAG_NAME, 'button').click()
+                break
+        all_windows = driver.window_handles
+        # 切换到新窗口
+        new_window = all_windows[-1]
+        driver.switch_to.window(new_window)
+        for cookie in cookies:
+            driver.add_cookie(cookie)
+        driver.refresh()

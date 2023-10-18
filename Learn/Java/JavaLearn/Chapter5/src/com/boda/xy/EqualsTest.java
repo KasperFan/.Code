@@ -9,6 +9,7 @@ public class EqualsTest {
         Arrays.fill(a1,47);
         Arrays.fill(a2,47);
         System.out.println(a1.equals(a2));
+        /* 数组之间的 'equals()' 可能应当是 'Arrays.equals()' */
         System.out.println(Arrays.equals(a1, a2));
         a2[3]=11;
         System.out.println(Arrays.equals(a1, a2));

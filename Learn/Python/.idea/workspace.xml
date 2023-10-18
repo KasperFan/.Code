@@ -80,6 +80,21 @@
       <workItem from="1695256826623" duration="791000" />
       <workItem from="1695257944989" duration="37000" />
       <workItem from="1695603760043" duration="4741000" />
+      <workItem from="1695644193694" duration="640000" />
+      <workItem from="1695718282030" duration="1119000" />
+      <workItem from="1695738614355" duration="1418000" />
+      <workItem from="1695805245238" duration="1472000" />
+      <workItem from="1695806917055" duration="3816000" />
+      <workItem from="1696065603963" duration="7000" />
+      <workItem from="1696065619030" duration="74000" />
+      <workItem from="1696148619506" duration="4868000" />
+      <workItem from="1696180997394" duration="3058000" />
+      <workItem from="1696255602761" duration="896000" />
+      <workItem from="1696344940283" duration="1498000" />
+      <workItem from="1696633628610" duration="2906000" />
+      <workItem from="1697415798492" duration="1731000" />
+      <workItem from="1697527491274" duration="873000" />
+      <workItem from="1697551551662" duration="2849000" />
     </task>
     <servers />
   </component>
@@ -110,54 +125,34 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
-          <line>106</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
-          <line>107</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/抢课.py</url>
           <line>39</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/刷课/Ulearn.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/grubdata.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/grubdata.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/grubdata.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -166,14 +161,17 @@
     <SUITE FILE_PATH="coverage/Python$retry.coverage" NAME="retry 覆盖结果" MODIFIED="1693829975636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util" />
     <SUITE FILE_PATH="coverage/Python$labelImg.coverage" NAME="labelImg Coverage Results" MODIFIED="1694670083254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/labelImg" />
     <SUITE FILE_PATH="coverage/Python$P5718.coverage" NAME="P5718 覆盖结果" MODIFIED="1694865615338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$4_2.coverage" NAME="4.2列表 覆盖结果" MODIFIED="1697553488508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/Chapter4:Data_structure" />
     <SUITE FILE_PATH="coverage/Python$errorhandler.coverage" NAME="errorhandler 覆盖结果" MODIFIED="1693815214209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote" />
     <SUITE FILE_PATH="coverage/Python$.coverage" NAME="抢课 覆盖结果" MODIFIED="1695034855186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$try.coverage" NAME="try 覆盖结果" MODIFIED="1684331303205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$RSA.coverage" NAME="RSA 覆盖结果" MODIFIED="1683425993654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$courceflush.coverage" NAME="courceflush 覆盖结果" MODIFIED="1693830241732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/刷课" />
-    <SUITE FILE_PATH="coverage/Python$Ulearn.coverage" NAME="Ulearn 覆盖结果" MODIFIED="1694405769068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/刷课" />
+    <SUITE FILE_PATH="coverage/Python$1_.coverage" NAME="1.列表更新 覆盖结果" MODIFIED="1697442066139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/Chapter4:Data_structure/4.2列表" />
+    <SUITE FILE_PATH="coverage/Python$Ulearn.coverage" NAME="Ulearn 覆盖结果" MODIFIED="1695873151553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/刷课" />
+    <SUITE FILE_PATH="coverage/Python$4_1.coverage" NAME="4.1通用序列操作 覆盖结果" MODIFIED="1697551695446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonLearn/Chapter4:Data_structure" />
     <SUITE FILE_PATH="coverage/Python$webdriver.coverage" NAME="webdriver 覆盖结果" MODIFIED="1693815640944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/selenium/webdriver/remote" />
-    <SUITE FILE_PATH="coverage/Python$grubdata.coverage" NAME="grubdata 覆盖结果" MODIFIED="1695605146630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$grubdata.coverage" NAME="grubdata 覆盖结果" MODIFIED="1696633702346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$replacename.coverage" NAME="replacename 覆盖结果" MODIFIED="1694921019862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$toolmain.coverage" NAME="toolmain 覆盖结果" MODIFIED="1693825037575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/刷课" />
   </component>

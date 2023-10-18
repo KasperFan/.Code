@@ -1,28 +1,34 @@
+
+/*
+ * @Author: KasperFan && fanwlx@foxmail.com
+ * @Date: 2023-08-06 15:39:59
+ * @LastEditTime: 2023-10-16 20:29:38
+ * @FilePath: /Java/P4017.java
+ * @describes: This file is created for learning Code.
+ * Copyright (c) 2023 by KasperFan in WFU, All Rights Reserved. 
+ */
 import java.io.*;
-import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.*;
 
 public class P4017 {
-
     public static void main(String[] args) throws Exception {
-        
         // 数据量大小，考虑使用快读
         Read sc = new Read();
         int n = sc.nextInt(), m = sc.nextInt(), mod = 80112002, ans = 0;
 
         // 记录每种生物食谱
-        LinkedList<LinkedList<Integer>> Edge = new LinkedList<LinkedList<Integer>>();
+        ArrayList<ArrayList<Integer>> Edge = new ArrayList<ArrayList<Integer>>();
         // 记录每种生物的入度和出度
         int[] indegree = new int[n + 1];
         int[] outdegree = new int[n + 1];
         // 记录每种生物的食物链条数
         int[] dp = new int[n + 1];
         // 拓扑排序队列
-        ArrayList<Integer> queue = new ArrayList<Integer>();
+        Queue<Integer> queue = new LinkedList<Integer>();
 
         // 初始化每种生物的食谱
         for (int i = 0; i <= m; i++) {
-            Edge.add(new LinkedList<Integer>());
+            Edge.add(new ArrayList<Integer>());
         }
         // 接收并处理生物间吃与被吃关系
         for (int i = 0; i < m; i++) {
@@ -44,9 +50,9 @@ public class P4017 {
         }
         // 拓扑排序部分
         while (!queue.isEmpty()) { // 当排序数列内部不为空时
-            int node = queue.remove(0); // 取出第一个动物的信息，记为node
+            int node = queue.poll(); // 取出第一个动物的信息，记为node
             while (!Edge.get(node).isEmpty()) { // 当node的食谱不为空时
-                int pre = Edge.get(node).removeFirst(); // 依次获取其食谱中的被捕食者
+                int pre = Edge.get(node).remove(0); // 依次获取其食谱中的被捕食者
                 dp[pre] += dp[node]; // 其被捕食者应与其共享所有链，故将其链数加到被捕食者链数记录中
                 dp[pre] %= mod; // 避免结果过大，对mod求模
                 outdegree[pre]--; // 该被捕食者与其捕食者关系结算完毕，将其之间出度关系抹去

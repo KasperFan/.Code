@@ -1,8 +1,8 @@
 /*
  * @Author: KasperFan && fanwlx@foxmail.com
  * @Date: 2023-06-12 13:16:23
- * @LastEditTime: 2023-09-08 17:33:50
- * @FilePath: /C/Data_Structure/课程设计/学生成绩查询系统.c
+ * @LastEditTime: 2023-10-16 15:13:39
+ * @FilePath: /Learn/C/Data_Structure/课程设计/学生成绩查询系统.c
  * @describes: This file is created for learning Code.
  * Copyright (c) 2023 by KasperFan in WFU, All Rights Reserved.
  */
@@ -15,9 +15,9 @@
 #include <mysql.h>
 #include <string.h>
 
-#ifdef _WIN32               // 如果是Windows系统
-char *op = "cls";           // 将system函数赋值给清屏函数指针变量
-#include <conio.h>  
+#ifdef _WIN32     // 如果是Windows系统
+char *op = "cls"; // 将system函数赋值给清屏函数指针变量
+#include <conio.h>
 #include <Windows.h>
 LARGE_INTEGER freq, start_time, end_time; // freq为计时器的频率
 #endif
@@ -942,5 +942,3 @@ int input_password(char password[])
     return i;
 }
 #endif
-
-
