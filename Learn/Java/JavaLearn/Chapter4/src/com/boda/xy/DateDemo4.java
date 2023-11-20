@@ -11,6 +11,5 @@ public class DateDemo4 {
         System.out.println(birthday.getYear() + "年"
                 + (birthday.isLeapYear() ? "是闰年" : "不是闰年"));
         System.out.println("你已出生" + birthday.between(today) + "天");
-        System.out.println(System.nanoTime() - start);
     }
 }

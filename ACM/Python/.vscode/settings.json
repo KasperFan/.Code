@@ -188,4 +188,13 @@
         "functionParamAddStr": "",
         "NoMatchParams": "no show param"
     },
+    "files.associations": {
+        "__bit_reference": "c",
+        "bitset": "c",
+        "map": "c",
+        "set": "c",
+        "unordered_map": "c",
+        "unordered_set": "c"
+    },
+    "python.analysis.autoImportCompletions": true,
 }

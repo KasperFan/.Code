@@ -109,3 +109,35 @@ print(a1)
 print("del")
 del a1[2]
 print(a1)
+# 执行结果如下：
+"""
+['Hello', 'Google', 'Baidu', 'QQ']
+del
+['Hello', 'Google', 'QQ']
+"""
+# 关键字 "del" 后是指定的列表元素和索引，
+# 从例子中可以看出，"del" 删除了其中一个元素，元素数量从四个变成了三个。
+# "del" 不仅可以删除列表的元素，还能删除其他元素，具体操作在后续章节中会涉及
+
+# 4. 查找元素：Python提供了index方法用于查找元素在列表中的索引位置。
+a1 = ['Hello', 'Google', 'Baidu', 'QQ']
+print("Baidu index is", a1.index("Baidu"))
+print("QQ index is", a1.index("QQ"))
+# 执行结果如下：
+"""
+Baidu index is 2
+QQ index is 3
+"""
+# 但是要注意，如果元素不在列表中，Python解释器就会输出错误信息。
+# 错误
+# print("Taobao index is", a1.index("Taobao"))
+"""
+Traceback (most recent call last):
+  File "/Users/kasperfan/Desktop/.Code/Learn/Python/PythonLearn/Chapter4:Data_structure/4.2列表.py", line 133, in <module>
+    print("Taobao index is", a1.index("Taobao"))
+ValueError: 'Taobao' is not in list
+"""
+# Python解释器会提示错误“ValueError: 'Taobao' is not in list”告诉我们这个元素不在列表中
+
+# 5.队列的其他操作：
+

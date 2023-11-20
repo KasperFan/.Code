@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/kasperfan/Desktop/.Code/ACM/Python/OJ/LuoGu/搜索/P2036"
+relocations:
+  - { offsetInCU: 0xDB, offset: 0xDB, size: 0x8, addend: 0x0, symName: __Z3dfsi, symObjAddr: 0x0, symBinAddr: 0x100007C8C, symSize: 0x180 }
+  - { offsetInCU: 0xE3, offset: 0xE3, size: 0x8, addend: 0x0, symName: _ans, symObjAddr: 0x260, symBinAddr: 0x10000C020, symSize: 0x0 }
+  - { offsetInCU: 0x2214, offset: 0x2214, size: 0x8, addend: 0x0, symName: _n, symObjAddr: 0x14640, symBinAddr: 0x10000C024, symSize: 0x0 }
+  - { offsetInCU: 0x222F, offset: 0x222F, size: 0x8, addend: 0x0, symName: _S, symObjAddr: 0x14644, symBinAddr: 0x10000C028, symSize: 0x0 }
+  - { offsetInCU: 0x224A, offset: 0x224A, size: 0x8, addend: 0x0, symName: _B, symObjAddr: 0x14648, symBinAddr: 0x10000C02C, symSize: 0x0 }
+  - { offsetInCU: 0x2267, offset: 0x2267, size: 0x8, addend: 0x0, symName: _ans, symObjAddr: 0x260, symBinAddr: 0x10000C020, symSize: 0x0 }
+  - { offsetInCU: 0x2294, offset: 0x2294, size: 0x8, addend: 0x0, symName: _s, symObjAddr: 0x1464C, symBinAddr: 0x10000C030, symSize: 0x0 }
+  - { offsetInCU: 0x22AF, offset: 0x22AF, size: 0x8, addend: 0x0, symName: _b, symObjAddr: 0x14678, symBinAddr: 0x10000C05C, symSize: 0x0 }
+  - { offsetInCU: 0x233D, offset: 0x233D, size: 0x8, addend: 0x0, symName: __ZSt4fabsIiEN9__gnu_cxx11__enable_ifIXsrSt12__is_integerIT_E7__valueEdE6__typeES3_, symObjAddr: 0x244, symBinAddr: 0x100007ED0, symSize: 0x1C }
+  - { offsetInCU: 0x2345, offset: 0x2345, size: 0x8, addend: 0x0, symName: _ans, symObjAddr: 0x260, symBinAddr: 0x10000C020, symSize: 0x0 }
+  - { offsetInCU: 0x232F, offset: 0x232F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x180, symBinAddr: 0x100007E0C, symSize: 0xC4 }
+  - { offsetInCU: 0x2337, offset: 0x2337, size: 0x8, addend: 0x0, symName: __ZSt4fabsIiEN9__gnu_cxx11__enable_ifIXsrSt12__is_integerIT_E7__valueEdE6__typeES3_, symObjAddr: 0x244, symBinAddr: 0x100007ED0, symSize: 0x1C }
+  - { offsetInCU: 0x237D, offset: 0x237D, size: 0x8, addend: 0x0, symName: __Z3dfsi, symObjAddr: 0x0, symBinAddr: 0x100007C8C, symSize: 0x180 }
+  - { offsetInCU: 0x2385, offset: 0x2385, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x180, symBinAddr: 0x100007E0C, symSize: 0xC4 }
+...

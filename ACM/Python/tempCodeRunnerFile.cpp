@@ -1,0 +1,1 @@
+is_used[k] = is_used[si] = is_used[sj] = is_used[sk] = false;

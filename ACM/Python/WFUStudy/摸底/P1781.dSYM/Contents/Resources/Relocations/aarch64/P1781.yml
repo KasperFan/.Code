@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/kasperfan/Desktop/.Code/ACM/Python/WFUStudy/摸底/P1781"
+relocations:
+  - { offsetInCU: 0xDB, offset: 0xDB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C68, symSize: 0x304 }
+  - { offsetInCU: 0xE3, offset: 0xE3, size: 0x8, addend: 0x0, symName: _win, symObjAddr: 0x304, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x88, size: 0x8, addend: 0x0, symName: _n, symObjAddr: 0xBAC, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0xA5, offset: 0xA5, size: 0x8, addend: 0x0, symName: _win, symObjAddr: 0x304, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xDE, offset: 0xDE, size: 0x8, addend: 0x0, symName: _chk, symObjAddr: 0xBB0, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0xF8, offset: 0xF8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C68, symSize: 0x304 }
+  - { offsetInCU: 0x100, offset: 0x100, size: 0x8, addend: 0x0, symName: _win, symObjAddr: 0x304, symBinAddr: 0x100008000, symSize: 0x0 }
+...

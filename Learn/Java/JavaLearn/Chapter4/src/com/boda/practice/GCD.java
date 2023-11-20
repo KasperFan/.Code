@@ -3,6 +3,7 @@ package com.boda.practice;
 import java.util.Scanner;
 
 public class GCD {
+    // 辗转相除法求最大公约数
     public static int gcd(int m, int n) {
         if (m % n == 0) {
             return n;
