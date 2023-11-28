@@ -1,7 +1,7 @@
 /*
  * @Author: KasperFan && fanwlx@foxmail.com
  * @Date: 2023-11-18 15:15:16
- * @LastEditTime: 2023-11-18 15:34:12
+ * @LastEditTime: 2023-11-28 21:07:24
  * @FilePath: /Python/WFUStudy/P1469.c
  * @describes: This file is created for learning Python to deal OJ problems.
  * Copyright (c) 2023 by KasperFan in WFU, All Rights Reserved.
@@ -36,4 +36,10 @@ int main()
     }
 
     return 0;
+}
+
+
+void example(){
+    gets();
+    fgets(str, 12, stdin);
 }
