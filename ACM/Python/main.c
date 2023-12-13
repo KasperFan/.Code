@@ -1,19 +1,16 @@
 /*
  * @Author: KasperFan && fanwlx@foxmail.com
  * @Date: 2023-10-15 21:26:25
- * @LastEditTime: 2023-11-04 10:45:31
+ * @LastEditTime: 2023-12-06 00:23:33
  * @FilePath: /Python/main.c
  * @describes: This file is created for learning Python to deal OJ problems.
  * Copyright (c) 2023 by KasperFan in WFU, All Rights Reserved.
  */
 #include <stdio.h>
+#include <math.h>
 
-char pinyin[10][5] = {"ling", "yi", "er", "san", "si", "wu", "liu", "qi", "ba", "jiu"};
-int main()
+int main(int argc, char const *argv[])
 {
-    for (int i = 0; i < 10; i++)
-    {
-        printf("%s\n", pinyin[i]);
-    }
+    int n = 1 + 9 >> 1;
     return 0;
 }
