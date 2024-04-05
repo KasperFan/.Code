@@ -2,22 +2,16 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/kasperfan/Desktop/.Code/ACM/Python/main'
 relocations:
-  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: __Z3dfsii, symObjAddr: 0x0, symBinAddr: 0x100007AC8, symSize: 0x2C0 }
-  - { offsetInCU: 0xC2, offset: 0xC2, size: 0x8, addend: 0x0, symName: _dx, symObjAddr: 0x440, symBinAddr: 0x10000C018, symSize: 0x0 }
-  - { offsetInCU: 0x88, offset: 0x88, size: 0x8, addend: 0x0, symName: _N, symObjAddr: 0xDFC, symBinAddr: 0x10000C038, symSize: 0x0 }
-  - { offsetInCU: 0xA3, offset: 0xA3, size: 0x8, addend: 0x0, symName: _M, symObjAddr: 0xE00, symBinAddr: 0x10000C03C, symSize: 0x0 }
-  - { offsetInCU: 0xBE, offset: 0xBE, size: 0x8, addend: 0x0, symName: _T, symObjAddr: 0xE04, symBinAddr: 0x10000C040, symSize: 0x0 }
-  - { offsetInCU: 0xDB, offset: 0xDB, size: 0x8, addend: 0x0, symName: _ans, symObjAddr: 0xE08, symBinAddr: 0x10000C044, symSize: 0x0 }
-  - { offsetInCU: 0xF5, offset: 0xF5, size: 0x8, addend: 0x0, symName: _sx, symObjAddr: 0xE0C, symBinAddr: 0x10000C048, symSize: 0x0 }
-  - { offsetInCU: 0x110, offset: 0x110, size: 0x8, addend: 0x0, symName: _sy, symObjAddr: 0xE10, symBinAddr: 0x10000C04C, symSize: 0x0 }
-  - { offsetInCU: 0x12B, offset: 0x12B, size: 0x8, addend: 0x0, symName: _fx, symObjAddr: 0xE14, symBinAddr: 0x10000C050, symSize: 0x0 }
-  - { offsetInCU: 0x146, offset: 0x146, size: 0x8, addend: 0x0, symName: _fy, symObjAddr: 0xE18, symBinAddr: 0x10000C054, symSize: 0x0 }
-  - { offsetInCU: 0x180, offset: 0x180, size: 0x8, addend: 0x0, symName: _map, symObjAddr: 0xE1C, symBinAddr: 0x10000C058, symSize: 0x0 }
-  - { offsetInCU: 0x1A2, offset: 0x1A2, size: 0x8, addend: 0x0, symName: _is_visited, symObjAddr: 0xEE0, symBinAddr: 0x10000C11C, symSize: 0x0 }
-  - { offsetInCU: 0x1C9, offset: 0x1C9, size: 0x8, addend: 0x0, symName: _dx, symObjAddr: 0x440, symBinAddr: 0x10000C018, symSize: 0x0 }
-  - { offsetInCU: 0x1E4, offset: 0x1E4, size: 0x8, addend: 0x0, symName: _dy, symObjAddr: 0x450, symBinAddr: 0x10000C028, symSize: 0x0 }
-  - { offsetInCU: 0x1FF, offset: 0x1FF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2C0, symBinAddr: 0x100007D88, symSize: 0x180 }
-  - { offsetInCU: 0x207, offset: 0x207, size: 0x8, addend: 0x0, symName: _dx, symObjAddr: 0x440, symBinAddr: 0x10000C018, symSize: 0x0 }
-  - { offsetInCU: 0x286, offset: 0x286, size: 0x8, addend: 0x0, symName: __Z3dfsii, symObjAddr: 0x0, symBinAddr: 0x100007AC8, symSize: 0x2C0 }
-  - { offsetInCU: 0x28E, offset: 0x28E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2C0, symBinAddr: 0x100007D88, symSize: 0x180 }
+  - { offsetInCU: 0xBA, offset: 0xBA, size: 0x8, addend: 0x0, symName: __Z8freeListP8ListNode, symObjAddr: 0x0, symBinAddr: 0x100007B34, symSize: 0x3C }
+  - { offsetInCU: 0xA54, offset: 0xA54, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2A4, symBinAddr: 0x100007DD8, symSize: 0x88 }
+  - { offsetInCU: 0xB1E, offset: 0xB1E, size: 0x8, addend: 0x0, symName: __Z13mergeTwoListsP8ListNodeS0_, symObjAddr: 0x144, symBinAddr: 0x100007C78, symSize: 0x160 }
+  - { offsetInCU: 0xB26, offset: 0xB26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x2A4, symBinAddr: 0x100007DD8, symSize: 0x88 }
+  - { offsetInCU: 0xBA5, offset: 0xBA5, size: 0x8, addend: 0x0, symName: __Z9initList2v, symObjAddr: 0xF8, symBinAddr: 0x100007C2C, symSize: 0x4C }
+  - { offsetInCU: 0xBAD, offset: 0xBAD, size: 0x8, addend: 0x0, symName: __Z13mergeTwoListsP8ListNodeS0_, symObjAddr: 0x144, symBinAddr: 0x100007C78, symSize: 0x160 }
+  - { offsetInCU: 0xBE2, offset: 0xBE2, size: 0x8, addend: 0x0, symName: __Z9initList1v, symObjAddr: 0xAC, symBinAddr: 0x100007BE0, symSize: 0x4C }
+  - { offsetInCU: 0xBEA, offset: 0xBEA, size: 0x8, addend: 0x0, symName: __Z9initList2v, symObjAddr: 0xF8, symBinAddr: 0x100007C2C, symSize: 0x4C }
+  - { offsetInCU: 0xC21, offset: 0xC21, size: 0x8, addend: 0x0, symName: __Z7addNodeP8ListNodei, symObjAddr: 0x3C, symBinAddr: 0x100007B70, symSize: 0x70 }
+  - { offsetInCU: 0xC29, offset: 0xC29, size: 0x8, addend: 0x0, symName: __Z9initList1v, symObjAddr: 0xAC, symBinAddr: 0x100007BE0, symSize: 0x4C }
+  - { offsetInCU: 0xC90, offset: 0xC90, size: 0x8, addend: 0x0, symName: __Z8freeListP8ListNode, symObjAddr: 0x0, symBinAddr: 0x100007B34, symSize: 0x3C }
+  - { offsetInCU: 0xC98, offset: 0xC98, size: 0x8, addend: 0x0, symName: __Z7addNodeP8ListNodei, symObjAddr: 0x3C, symBinAddr: 0x100007B70, symSize: 0x70 }
 ...

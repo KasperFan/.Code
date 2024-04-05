@@ -1,56 +1,49 @@
-import java.util.Scanner;
-import java.lang.Math;
+/*
+Name    :   P1605迷宫.java
+Time    :   2023/02/21 22:11:27
+Author  :   Kasper Fan
+Group   :   Weifang University
+Contact :   fanwlx@foxmail.com
+Desc    :   This file is created for learning Java coding
+*/
+
+// package 作业.dfs;
+
+import java.io.*;
 
 public class Test_One {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] num = new int[n];
-        for (int i = 0; i < n; i++) {
-            num[i] = sc.nextInt();
-        }
-        sc.close();
-        sortNumber(num);
-        for (int i = 0; i < n; i++) {
-            System.out.print(num[i]);
-        }
-    }
+    static int n, low, mid, high;
+    static Read sc = new Read();
 
+    public static void main(String[] args) throws Exception {
+        n = sc.nextInt();
+        if (n == 1) {System.out.println(n); return;}
+        high = n;
+        while (low < high) {
+            mid = (low + high) / 2;
+            if (len(mid) < n) low = mid + 1;
+            else high = mid;
+        }
+        System.out.println(low);
+    }
     
-    public static void sortNumber(int[] num) {
-        for (int i = 0; i < num.length; i++) {
-            for (int j = 0; j < num.length-i; j++) {
-                if (j + 1 >= num.length)
-                    continue;
-                if (num[j] * (int) Math.pow(10, getNumberLenth(num[j + 1])) + num[j + 1] < 
-                    num[j + 1] * (int) Math.pow(10, getNumberLenth(num[j])) + num[j]) {
-                    int temp;
-                    temp = num[j];
-                    num[j] = num[j + 1];
-                    num[j + 1] = temp;
-                }
-            }
-        }
+    public static int len(int x) {
+        return (int) (x * Math.log10(x) + 1);
     }
 
-    public static int getNumberLenth(int k) {
-        if (k >= 100000000) {
-            return 9;
-        } else if (k >= 10000000) {
-            return 8;
-        } else if (k >= 1000000) {
-            return 7;
-        } else if (k >= 100000) {
-            return 6;
-        } else if (k >= 10000) {
-            return 5;
-        } else if (k >= 1000) {
-            return 4;
-        } else if (k >= 100) {
-            return 3;
-        } else if (k >= 10) {
-            return 2;
-        } else
-            return 1;
+    static class Read { 
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StreamTokenizer st = new StreamTokenizer(br);
+        public String nextLine() throws Exception {
+            return br.readLine();
+        }
+        public int nextInt() throws Exception {
+            st.nextToken();
+            return (int) st.nval;
+        }
+        public double nextDouble() throws Exception {
+            st.nextToken();
+            return st.nval;
+        }
     }
 }

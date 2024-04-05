@@ -123,6 +123,10 @@
       <workItem from="1700146181611" duration="6373000" />
       <workItem from="1700297178181" duration="608000" />
       <workItem from="1700493278305" duration="797000" />
+      <workItem from="1703667144603" duration="319000" />
+      <workItem from="1704174594115" duration="1276000" />
+      <workItem from="1705208318487" duration="1444000" />
+      <workItem from="1705234302454" duration="21000" />
     </task>
     <servers />
   </component>
@@ -187,6 +191,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test 覆盖结果" MODIFIED="1698646500599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main 覆盖结果" MODIFIED="1705208550034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$retry.coverage" NAME="retry 覆盖结果" MODIFIED="1693829975636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/urllib3/util" />
     <SUITE FILE_PATH="coverage/Python$labelImg.coverage" NAME="labelImg Coverage Results" MODIFIED="1694670083254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/labelImg" />
     <SUITE FILE_PATH="coverage/Python$P5718.coverage" NAME="P5718 覆盖结果" MODIFIED="1694865615338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -7,6 +7,9 @@
  * Copyright (c) 2023 by KasperFan in WFU, All Rights Reserved. 
  */
 #include <stdio.h>
+#include <stdlib.h>
+
+
 int ans = 2500;
 int n, m;
 int sum;

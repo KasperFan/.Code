@@ -1,11 +1,18 @@
 '''
 Author: KasperFan && fanwlx@foxmail.com
 Date: 2023-11-03 22:42:05
-LastEditTime: 2023-11-03 23:08:27
+LastEditTime: 2024-01-27 16:50:54
 FilePath: /Python/tianti_contest/L2-4 寻宝图.py
 describes: This file is created for learning Python to deal OJ problems.
-Copyright (c) 2023 by KasperFan in WFU, All Rights Reserved. 
+Copyright (c) 2023 by KasperFan in WFU, All Rights Reserved.
 '''
+import sys
+from datetime import datetime
+
+sys.stdin = open("./test.txt", mode="r")
+
+start_time = datetime.now()
+
 img: list
 dx: list = [-1, 1, 0, 0]
 dy: list = [0, 0, -1, 1]
@@ -37,3 +44,13 @@ for i in range(n):
             island += 1
             dfs(i, j)
 print(island, tresure)
+
+end_time = datetime.now()
+print("运行时间：", end_time - start_time)
+from itertools import permutations
+p = list(permutations(range(1,4)))
+for i in p:
+    for j in i:
+        print(f"    {j}", end="")
+    print()
+print(p)
