@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/kasperfan/Desktop/.Code/Create/build",
-  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/main.dir/main.c.o -c /Users/kasperfan/Desktop/.Code/Create/main.c",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-13   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/main.dir/main.c.o -c /Users/kasperfan/Desktop/.Code/Create/main.c",
   "file": "/Users/kasperfan/Desktop/.Code/Create/main.c",
   "output": "CMakeFiles/main.dir/main.c.o"
 }

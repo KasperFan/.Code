@@ -9,6 +9,7 @@
     "files.associations": {
         "mysql.h": "c",
         "ncurses.h": "c",
-        "locale.h": "c"
+        "locale.h": "c",
+        "random": "c"
     }
 }

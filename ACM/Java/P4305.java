@@ -1,13 +1,14 @@
 /*
  * @Author: KasperFan && fanwlx@foxmail.com
  * @Date: 2024-03-19 20:01:32
- * @LastEditTime: 2024-03-19 20:18:04
+ * @LastEditTime: 2024-04-05 20:08:00
  * @FilePath: /Java/P4305.java
  * @describes: This file is created for learning Code.
  * Copyright (c) 2024 by KasperFan in WFU, All Rights Reserved. 
  */
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -16,6 +17,8 @@ public class P4305 {
         Read sc = new Read();
         PrintWriter p = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
         Set<Integer> set = new LinkedHashSet<>();
+        ArrayList foo = new ArrayList();
+        
         int T = sc.nextInt();
         while (T-- > 0) {
             int n = sc.nextInt();

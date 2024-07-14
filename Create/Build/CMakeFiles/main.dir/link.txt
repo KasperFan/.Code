@@ -1,1 +1,1 @@
-/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main.dir/main.c.o -o bin/main 
+/opt/homebrew/bin/aarch64-apple-darwin23-gcc-13 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/main.dir/main.c.o -o bin/main 

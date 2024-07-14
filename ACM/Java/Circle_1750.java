@@ -1,8 +1,8 @@
 /*
  * @Author: KasperFan && fanwlx@foxmail.com
  * @Date: 2022-11-30 09:43:40
- * @LastEditTime: 2023-03-17 01:11:56
- * @FilePath: /ACM/Java/Circle_1750.java
+ * @LastEditTime: 2024-04-05 21:15:51
+ * @FilePath: /Java/Circle_1750.java
  * @Description: This file is created for learning Code.
  * Copyright (c) 2023 by KasperFan in WFU, All Rights Reserved. 
  */
@@ -19,7 +19,7 @@ class Circle_1750 {
 
         public Circle() {
         }
-
+        
         public Circle(double x, double y) {
             this.x = x;
             this.y = y;

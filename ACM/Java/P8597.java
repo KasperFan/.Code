@@ -1,13 +1,13 @@
-
 /*
  * @Author: KasperFan && fanwlx@foxmail.com
  * @Date: 2024-03-05 20:26:31
- * @LastEditTime: 2024-03-09 11:32:54
+ * @LastEditTime: 2024-04-05 21:14:39
  * @FilePath: /Java/P8597.java
  * @describes: This file is created for learning Code.
  * Copyright (c) 2024 by KasperFan in WFU, All Rights Reserved. 
  */
 import java.util.Scanner;
+import java.io.*;
 
 public class P8597 {
 

@@ -897,7 +897,7 @@ int input_password(char password[])
 }
 #endif
 
-#ifdef __APPLE__
+#ifdef __APPLE__  // POSIX
 // 定义一个函数，用于实现密码隐式输入
 int input_password(char password[])
 {
